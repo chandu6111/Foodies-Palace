@@ -25,13 +25,13 @@
      use Twilio\Rest\Client;
 
      // Your Account SID and Auth Token from twilio.com/console
-     $account_sid = 'AC6e85aac2ca9db2127e4552ef26a03a78';
-     $auth_token = 'a9678d9fc2fb469c56b1ba3e7cb0169b';
+     $account_sid = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+     $auth_token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
      // In production, these should be environment variables. E.g.:
      // $auth_token = $_ENV["TWILIO_AUTH_TOKEN"]
 
      // A Twilio number you own with SMS capabilities
-     $twilio_number = "+18633561195";
+     $twilio_number = "xxxxxxxxxxx";
 
      $client = new Client($account_sid, $auth_token);
      $client->messages->create(
