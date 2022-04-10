@@ -4,7 +4,7 @@ The purpose of the website is to enable users to find recipes for cooking and al
 
 First user should signin/login, on successful login, they will be redirected to home page. Users can view all recipes in Tasty recipes page and they can search based on recipe name. On click on recipe, a detail description along with ingredients, steps, will be displayed. If they are interested to add a new recipe , they can fill the form in Submit Recipes page , after submission, they will be recieve a confirmation message to their mobile number. (It is done using Twilio API). In account page, their basic info along with all the recipes they have uploaded will be displayed.
 
-Video Demonstration link : 
+Video Demonstration link : https://vimeo.com/697918430
 
 <h3>📚 Technologies used</h3>
 <ul>
